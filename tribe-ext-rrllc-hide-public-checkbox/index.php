@@ -20,17 +20,23 @@ if ( ! class_exists( 'Tribe__Extension' ) ) {
     return;
 }
 
-/**
- * Taken from https://stackoverflow.com/questions/10897755/add-css-to-php-wordpress-plugin
- * Register with hook 'wp_enqueue_scripts', which can be used for front end CSS and JavaScript
- */
-add_action( 'wp_enqueue_scripts', 'tribe_ext_rrllc_hide_public_checkbox' );
+if ( ! class_exists( 'tribe-ext-rrllc-hide-public-checkbox' ) ) {
+    /*ensure we don't accidentally crash the entire website... again.*/
 
-/**
- * Enqueue plugin style-file
- */
-function tribe_ext_rrllc_hide_public_checkbox() {
-    // Respects SSL, Style.css is relative to the current file
-    wp_register_style( 'tribe-ext-rrllc-hide-public-checkbox', plugins_url('tribe-ext-rrllc-hide-public-checkbox.css', __FILE__) );
-    wp_enqueue_style( 'tribe-ext-rrllc-hide-public-checkbox' );
+    /**
+	 * Taken from https://stackoverflow.com/questions/10897755/add-css-to-php-wordpress-plugin
+	 * Register with hook 'wp_enqueue_scripts', which can be used for front end CSS and JavaScript
+	 */
+	add_action( 'wp_enqueue_scripts', 'tribe_ext_rrllc_hide_public_checkbox' );
+
+	/**
+	 * Enqueue plugin style-file
+	 */
+	function tribe_ext_rrllc_hide_public_checkbox() {
+	    // Respects SSL, Style.css is relative to the current file
+	    wp_register_style( 'tribe-ext-rrllc-hide-public-checkbox', plugins_url('tribe-ext-rrllc-hide-public-checkbox.css', __FILE__) );
+	    wp_enqueue_style( 'tribe-ext-rrllc-hide-public-checkbox' );
+	}
+} else {
+	die( '-2' );
 }
