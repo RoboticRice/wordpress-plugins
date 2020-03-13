@@ -27,7 +27,7 @@ Install and activate like any other plugin!
 
 = Where can I find more extensions? =
 
-Please visit the official [extension library](https://theeventscalendar.com/extensions/) to learn about our complete range of extensions for The Events Calendar and its associated plugins.
+Please visit the official [extension library](https://theeventscalendar.com/extensions/) to learn about the complete range of extensions for The Events Calendar and its associated plugins.
 
 = What if I experience problems? =
 
