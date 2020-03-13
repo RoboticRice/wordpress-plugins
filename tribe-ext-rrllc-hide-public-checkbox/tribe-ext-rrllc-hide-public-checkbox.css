@@ -1,4 +1,16 @@
 <style type="text/css">
+
+/**
+ * Plugin Name:     Events Tickets Extension: Hide Public Attendance Checkbox
+ * Description:     This plugin hides the checkbox for the RSVP tickets from view.
+ * Version:         1.0.0
+ * Extension Class: Tribe__Extension__RRLLC__Hide__Public__Checkbox
+ * Author:          Robotic Rice LLC
+ * Author URI:      http://roboticrice.com/
+ * License:         GPLv2 or later
+ * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
 /* hide attendance opt out checkbox on single event pages for Event Tickets Plus 4.11.3 and later */
 /* inspired by https://wordpress.org/support/topic/remove-public-attendee-check-box/#post-12538895 */
 #tribe-tickets .tribe-common-form-control-checkbox__label {

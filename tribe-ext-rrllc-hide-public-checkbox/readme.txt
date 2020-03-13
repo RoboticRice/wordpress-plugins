@@ -9,7 +9,7 @@ Stable tag: 1.0.0
 License: GPL version 2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Event Tickets' RSVP ticket Public Attendance Checkbox will be hidden. Currently does nothing.
+Event Tickets' RSVP ticket Public Attendance Checkbox will be hidden.
 
 == Description ==
 
