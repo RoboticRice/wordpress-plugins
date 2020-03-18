@@ -5,7 +5,7 @@ Tags: events, calendar
 Requires at least: 5.3.2
 Tested up to: 5.3.2
 Requires PHP: 7.3.15
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPL version 2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,12 @@ Please visit the official [extension library](https://theeventscalendar.com/exte
 I recommend you visit the official [support forums](https://wordpress.org/support/plugin/event-tickets/) for Event Tickets or view the [specific thread](https://wordpress.org/support/topic/remove-public-attendee-check-box/#post-12513647) that inspired this plugin.
 
 == Changelog ==
+
+= 1.1.0 - March 17, 2020 =
+
+*1.1.0 update*
+
+* Added translation ability that changes "Event ends on" to "Last day to register"
 
 = 1.0.0 - March 12, 2020 =
 
